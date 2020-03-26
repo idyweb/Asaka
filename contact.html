@@ -1,0 +1,28 @@
+<form action="processform.php" method="POST">
+   FirstName: <input type="text" name="FirstName" placeholder="Enter your First Name"/><br><p></p>
+    LastName:<input type="text" name="LastName" placeholder="Enter Your LastName"/><br><p></p>
+    Contact Num<input type="number" name="contact_Number" placeholder="Enter your GSM"/><br><p></p>
+    Email:<input type="email" name="Email" placeholder="Enter Email"/><br><p></p>
+    Department: <br>
+    <p>
+        <label for="department">Department</label><br>
+        <select name='department'>
+        <option>Select Department</option>
+        <option>HR</option>
+        <option>Board</option>
+        <option>Marketing</option>
+        <option>Business Dev</option>
+    </select>
+    </p>
+    <p>
+        
+    </p>
+    <label for="message">Write your message</label>
+    <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
+  
+    <button type="submit">Send Message</button> 
+
+
+</form>
+
+
